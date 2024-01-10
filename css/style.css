@@ -11,9 +11,11 @@
 *::after,
 *::before{
     box-sizing: border-box;
+}
+
+*{
     padding: 0;
     margin: 0;
-
 }
 
 
@@ -33,7 +35,7 @@ img{
 
 
 .container{
-    width: 17.5rem;
+    max-width:min(90%, 17.5rem);
     background-color: var(--White);
     padding: 1rem;
     display: flex;
